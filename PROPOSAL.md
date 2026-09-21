@@ -30,3 +30,4 @@ Need:
 
 
 ## Layout Plan
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/slides/DiWb5izXdFTuCmpPBKSwYr/Untitled?node-id=1-2&embed-host=share" allowfullscreen></iframe>
