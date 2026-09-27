@@ -1,1 +1,150 @@
-hi 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olympia Jonson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="index.html">Olympia Jonson</a>
+      <button class="nav__toggle" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav__links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I'm Olympia.</h1>
+        <p class="placeholder" style="background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.5); color: #fff;">
+          TODO (About bio text — missing, from Olympia): one-sentence intro line goes here.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="container">
+        <div class="section__heading reveal">
+          <h2>Journey</h2>
+        </div>
+        <ul class="timeline">
+          <li class="timeline__item reveal">
+            <button class="timeline__trigger" aria-expanded="false" aria-controls="panel-1">
+              <span>Exchange abroad <span class="timeline__date">TODO: date</span></span>
+              <span class="timeline__icon">+</span>
+            </button>
+            <div class="timeline__panel" id="panel-1" data-open="false">
+              <div class="timeline__panel-inner">
+                <p class="placeholder">TODO (missing, from Olympia): short description of the exchange experience.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <button class="timeline__trigger" aria-expanded="false" aria-controls="panel-2">
+              <span>Hackathon <span class="timeline__date">TODO: date</span></span>
+              <span class="timeline__icon">+</span>
+            </button>
+            <div class="timeline__panel" id="panel-2" data-open="false">
+              <div class="timeline__panel-inner">
+                <p class="placeholder">TODO (missing, from Olympia): short description of the hackathon.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <button class="timeline__trigger" aria-expanded="false" aria-controls="panel-3">
+              <span>Industry experience <span class="timeline__date">TODO: date</span></span>
+              <span class="timeline__icon">+</span>
+            </button>
+            <div class="timeline__panel" id="panel-3" data-open="false">
+              <div class="timeline__panel-inner">
+                <p class="placeholder">TODO (missing, from Olympia): short description of work across industries.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <button class="timeline__trigger" aria-expanded="false" aria-controls="panel-4">
+              <span>Competitive sports <span class="timeline__date">TODO: date</span></span>
+              <span class="timeline__icon">+</span>
+            </button>
+            <div class="timeline__panel" id="panel-4" data-open="false">
+              <div class="timeline__panel-inner">
+                <p class="placeholder">TODO (missing, from Olympia): short description of sports involvement.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--muted" id="work-preview">
+      <div class="container">
+        <div class="section__heading reveal">
+          <h2>Work</h2>
+          <a class="section__link" href="projects.html">See all projects &rarr;</a>
+        </div>
+        <div class="card-grid">
+          <div class="card reveal">
+            <h3 class="placeholder">TODO: project name</h3>
+            <p class="card__meta placeholder">Missing — from Olympia (see PRD Content status)</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="placeholder">TODO: project name</h3>
+            <p class="card__meta placeholder">Missing — from Olympia (see PRD Content status)</p>
+          </div>
+          <div class="card reveal">
+            <h3 class="placeholder">TODO: project name</h3>
+            <p class="card__meta placeholder">Missing — from Olympia (see PRD Content status)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies-preview">
+      <div class="container">
+        <div class="section__heading reveal">
+          <h2>Hobbies</h2>
+          <a class="section__link" href="gallery.html">See gallery &rarr;</a>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <div class="placeholder-img">Photo: experience 1<br />(file to be added)</div>
+            <figcaption class="placeholder">TODO: caption</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <div class="placeholder-img">Photo: experience 2<br />(file to be added)</div>
+            <figcaption class="placeholder">TODO: caption</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <div class="placeholder-img">Photo: skiing<br />(file to be added)</div>
+            <figcaption class="placeholder">TODO: caption</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted reveal" id="cta">
+      <div class="container" style="text-align: center;">
+        <h2>Want to know more?</h2>
+        <a class="button" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; 2026 Olympia Jonson</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
