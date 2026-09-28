@@ -29,7 +29,7 @@
   --color-border: #E9E4DC;
 
   /* type */
-  --font-base: "Inter", system-ui, -apple-system, sans-serif;
+  --font-base: system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* layout */
   --max-width: 72rem;
