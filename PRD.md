@@ -94,7 +94,7 @@ Sunset-inspired gradient, cool-to-warm; clean modern sans-serif base. Provisiona
   --color-text-muted: #5B6270;
 
   /* type */
-  --font-base: "Inter", system-ui, -apple-system, sans-serif;
+  --font-base: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 ```
 
